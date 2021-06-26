@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    margin: 20px auto;
+}
+
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.imageupload progress{
+    width: 100%;
+    padding: 10px;
+}
