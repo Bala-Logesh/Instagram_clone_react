@@ -224,9 +224,9 @@ function App() {
       </div>
 
       { user?.displayName ? (
-        <ImageUpload username={ user.displayName }/>
+        <ImageUpload username={ user.displayName } />
       ) : (
-        <h3>Sorry, You have to login to post</h3>
+        <h3 style={{ textAlign: 'center', marginBottom: '20px' }}>Sorry, You have to login to post</h3>
       ) }
       
     </div>

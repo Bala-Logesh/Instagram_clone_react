@@ -17,3 +17,18 @@
     width: 100%;
     padding: 10px;
 }
+
+/* Media queries */
+/* Screen width less then 768px */
+@media screen and (max-width: 768px){
+    .imageupload{
+        width: 80%;
+    }
+}
+
+/* Screen width less then 480px */
+@media screen and (max-width: 480px){
+    .imageupload{
+        width: 94%;
+    }
+}
